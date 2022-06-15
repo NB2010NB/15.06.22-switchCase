@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    question 1<br>
+    <input type="number" placeholder="choose number" id="inputUser">
+    <button onclick="printLogNumber()">print log</button><br>
+    <div id="divNum"></div><br>
+
+    question 2<br>
+    <input type="text" placeholder="choose name" id="nameUser">
+    <button onclick="printToDoc()">show</button>
+    <div id="pic"></div><br>
+
+    question 3<br>
+    <input type="number" placeholder=" choose number 1" id="numUser">
+    <input type="number" placeholder=" choose number 2" id="numUser2">
+    <input type="text" placeholder="choose Operator" id="typeUser">
+    <button id="btn" onclick="printLog()">show</button>
+    <div id="divNumber"></div><br>
+
+    question 4<br>
+    <input placeholder="choose text" type="text" id="text">
+    <input placeholder="choose color" type="text" id="color">
+    <input placeholder="choose size" type="number" id="size">
+    <button onclick="printColorText()">show</button>
+    <div id="divColorText"></div><br>
+
+    question 5<br>
+    <input type="text" id="color" placeholder="choose color">
+    choose location:
+    <select id="location">
+        <option></option>
+        <option id=" left">top-left</option>
+        <option>top-right</option>
+        <option>bottom-left</option>
+        <option>bottom-right</option>
+    </select>
+    <button onclick="printElement()">show</button>
+    <div id="element"></div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
