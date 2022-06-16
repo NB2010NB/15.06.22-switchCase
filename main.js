@@ -80,19 +80,23 @@ function printColorText() {
 
 //*********5********* */
 function printElement() {
-    let userColor = document.getElementById("color").value;
+    let userColor = document.getElementById("colorElement").value;
     let userLocation = document.getElementById("location").value;
     let topLeft = document.getElementById("Tleft").value;
-    let div_element;
-
+    let rightLeft = document.getElementById("Tright").value;
+    let bottomLeft = document.getElementById("Bleft").value;
+    let bottomRight = document.getElementById("Bright").value;
+    let div_element = document.getElementById("element");
+    console.log(userColor);
+    div_element.style.background = userColor;
+    console.log(userLocation);
     switch (userLocation) {
         case topLeft:
 
-            div_element.innerText = "natan"
+
             break;
+        case bottomLeft:
+            div_element.style.marginTop = '100px'
     }
-
-
-
 
 }
