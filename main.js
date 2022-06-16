@@ -82,14 +82,16 @@ function printColorText() {
 function printElement() {
     let userColor = document.getElementById("color").value;
     let userLocation = document.getElementById("location").value;
-    let corner =document.getElementById("left");
+    let topLeft = document.getElementById("Tleft").value;
     let div_element;
-    switch (userLocation) {
-        case 'corner':
-            div_element.innerText = "natan";
 
+    switch (userLocation) {
+        case topLeft:
+
+            div_element.innerText = "natan"
             break;
     }
+
 
 
 
